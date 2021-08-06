@@ -1,6 +1,6 @@
 {
   "name": "@krew-io/repository",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Official eslint config for Krew.io",
   "main": "index.js",
   "scripts": {
