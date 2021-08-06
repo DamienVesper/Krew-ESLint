@@ -1,5 +1,5 @@
 {
-  "name": "@krew-io/repository",
+  "name": "@krew-io/eslint-config",
   "version": "1.0.0",
   "description": "Official eslint config for Krew.io",
   "main": "index.js",
