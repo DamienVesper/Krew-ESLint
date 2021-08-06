@@ -4,8 +4,8 @@
   "description": "Official eslint config for Krew.io",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix"
   },
   "repository": {
     "type": "git",
