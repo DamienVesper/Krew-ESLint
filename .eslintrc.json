@@ -1,6 +1,10 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "extends": [
       "eslint:recommended",
       "plugin:@typescript-eslint/recommended",
@@ -11,6 +15,7 @@
       "@typescript-eslint/no-empty-function": "off",
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-non-null-assertion": "off",
+      "@typescript-eslint/no-unused-vars": "error",
       "array-bracket-newline": "warn",
       "comma-spacing": "warn",
       "eol-last": "warn",
@@ -20,6 +25,7 @@
       "no-eval": "error",
       "no-unreachable-loop": "error",
       "no-unused-expressions": "warn",
+      "no-unused-vars": "off",
       "object-curly-newline": [
           "warn", {
               "ObjectExpression": { "minProperties": 2 },
