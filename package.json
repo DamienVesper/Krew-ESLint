@@ -1,6 +1,6 @@
 {
   "name": "@krew-io/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official eslint config for Krew.io",
   "main": "index.js",
   "scripts": {
